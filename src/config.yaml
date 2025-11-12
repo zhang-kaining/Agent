@@ -1,0 +1,21 @@
+dev:
+    name: dev
+    description: Development environment
+    tags:
+        - dev
+    variables:
+        environment: dev
+        project: my-project
+        region: us-central1
+        zone: us-central1-a
+
+test:
+    name: test
+    description: Test environment
+    tags:
+        - test
+    variables:
+        environment: test
+        project: my-project
+        region: us-central1
+        zone: us-central1-a
