@@ -49,7 +49,7 @@ class LongTermMemory(BaseModel):
     summaries: List[ConversationSummary] = Field(..., description="List of historical conversation summaries")
 
 
-class ChatState(BaseModel):
+class ChatSession(BaseModel):
     """
     Chat Session State Model
     

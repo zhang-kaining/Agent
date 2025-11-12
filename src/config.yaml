@@ -4,10 +4,9 @@ dev:
     tags:
         - dev
     variables:
-        environment: dev
-        project: my-project
-        region: us-central1
-        zone: us-central1-a
+        gemini:
+            model: gemini-2.5-flash
+
 
 test:
     name: test
