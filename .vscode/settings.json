@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./agent_user_input_to_ccmd",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "kiroAgent.configureMCP": "Disabled"
+}
