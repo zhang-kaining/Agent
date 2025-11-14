@@ -1,8 +1,7 @@
-from pydantic import BaseModel
 from abc import ABC, abstractmethod
 
 
-class LLMBaseModel(BaseModel, ABC):
+class LLMBaseModel(ABC):
 
     @abstractmethod
     def invoke(
